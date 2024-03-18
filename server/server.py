@@ -12,6 +12,7 @@ import select
 import pickle
 import struct
 
+from socket import SHUT_RDWR
 from threading import *
 from PyQt5 import uic
 from PyQt5.QtGui import *
