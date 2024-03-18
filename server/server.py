@@ -20,7 +20,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from time import strftime,localtime
 
-from Crypto.Hash import SHA
+from Crypto.Hash import SHA1
 from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_PSS
 
